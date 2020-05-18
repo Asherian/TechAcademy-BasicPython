@@ -1,4 +1,7 @@
-
+""""
+Your script will need to use Python 3 and the Tkinter module.
+Your script will need to re-create an exact copy of a GUI from the supplied image at the bottom of this page.
+"""
 import tkinter
 from tkinter import *
 

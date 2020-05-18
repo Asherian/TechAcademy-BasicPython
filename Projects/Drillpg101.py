@@ -16,12 +16,12 @@ import os
 path=os.listdir()
 fName=os.listdir(path='C:\\TechAcademy\\Python\\Projects\\')
 fPath='C:\\TechAcademy\\Python\\Projects\\'
-paths=os.path.join(fPath, fName[2])
 def cycle():
     for filename in os.listdir(path='C:\\TechAcademy\\Python\\Projects\\'):
         if filename.endswith('.txt'):
             print(filename)
-            print(os.path.getmtime('C:\\TechAcademy\\Python\\Projects\\'))
+            paths=os.path.join(fPath, filename)
+            print(os.path.getmtime(paths))
             continue
         else:
             continue
